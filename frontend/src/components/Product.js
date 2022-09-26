@@ -1,13 +1,14 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Product = ({ product }) => {
   return (
     <Card className="py-3 my-3">
       <Card.Body>
-        <a href={`/product/${product._id}`}>
+        <Link to={`/products/${product._id}`}>
           <Card.Title>{product.name}</Card.Title>
-        </a>
+        </Link>
       </Card.Body>
     </Card>
   );
