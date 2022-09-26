@@ -10,7 +10,7 @@ const HelloScreen = () => {
   useEffect(() => {
     // console.log('hello')
     const fetchProducts = async () => {
-      const res = await axios.get('/api/products')
+      const res = await axios.get('/api/api/products')
       console.log(res)
     }
     fetchProducts()
