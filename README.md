@@ -1,5 +1,8 @@
 # MERN全栈框架搭建
 项目仓库：[https://github.com/lilingkang/mern-demo.git](https://github.com/lilingkang/mern-demo.git)
+
+docker仓库：https://hub.docker.com/r/llk2000/mern-demo
+
 <a name="d4310aa4"></a>
 # 创建一个项目目录
 创建项目目录`mern-demo`
